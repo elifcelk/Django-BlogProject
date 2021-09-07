@@ -6,3 +6,5 @@ def index(request):
 
 def about(request):
     return render(request,"about.html")
+
+

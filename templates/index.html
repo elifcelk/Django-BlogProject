@@ -6,5 +6,12 @@
     <h3>Yazılım Bilimi Bloğuna Hoşgeldiniz</h3>
     <p>Bu blogda geliştiriciler olarak blog yazılarınızı paylaşabilirsiniz ve insanlara yardımcı olabilirsiniz.</p>
 </div>
+<ul>
+{% for number in numbers %}
+    
+        <li>{{number}}</li>
+        
+ {% endfor %}
+</ul>
 
 {% endblock body %} 
